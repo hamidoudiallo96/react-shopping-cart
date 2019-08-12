@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import {ProductContext} from '../Contexts/ProductContext'
 const Navigation = props => {
 	return (
 		<div className="navigation">
