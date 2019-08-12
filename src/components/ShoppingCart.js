@@ -10,7 +10,8 @@ const ShoppingCart = props => {
 			return acc + value.price;
 		}, 0).toFixed(2);
 	};
-
+	
+	
 	return (
 		<div className="shopping-cart">
 			{cart.map(item => (
@@ -26,3 +27,4 @@ const ShoppingCart = props => {
 };
 
 export default ShoppingCart;
+
